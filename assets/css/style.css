@@ -61,7 +61,7 @@ h5{
     display: flex;
     justify-content: center;
     font-family: "moon";
-    font-size: 12px;
+    font-size: 24px;
 }
 
 .publicidad{
@@ -231,7 +231,7 @@ flex-wrap: wrap;
 }
 
 
-}
+
 
 /*--------------------------- CSS TALLERES------------------*/
 
@@ -240,44 +240,21 @@ flex-wrap: wrap;
    tr th{
         color:#EF816C;
         font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
-   tr td{
-        font-size: 20px;
-    }
 
-    li{
-        font-size: 20px;
-    }
-    
-    .ContenedorTalleres{
-        background-color:  rgba(4, 128, 130, 0.336);
-        display: block;
-    }
-    
-    .tablas{
-        background-color: white;
-        
-    }
 
-    .Tablas__Talleres{
-        background-color: white;
-        display: flex;
-        justify-content: left;
-     
-        
-    }
-    
-    .Tablas__Beneficios{
-        background-color: white;
-        display: flex;
-        justify-content:left;
-        margin: 0;
-        padding: 0;
-        
-    }
+
+.PieTalleres{
+    text-align-last: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color:#EF816C;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #011C26;
 }
-
 
 /*----------CSS DE TERAPIAS-------------*/
 
