@@ -24,6 +24,8 @@
 
 a{
   font-family: moon;
+  font-style: none;
+  color:#011C26;
 
 }
 
@@ -232,48 +234,11 @@ flex-wrap: wrap;
 }
 
 /*--------------------------- CSS TALLERES------------------*/
-.ContenedorTalleres{
-    background-color: rgba(168, 43, 226, 0.224);
-    display: block;
-    flex-wrap: wrap;
-}
 
-.Tablas__Talleres{
-    background-color: white;
-    display: flex;
-    justify-content: center;
- 
-    
-}
-
-.Tablas__Beneficios{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    padding: 10px;
-    
-}
-
-tr th{
-    color: rgba(4, 128, 130, 0.336);
-    font-size: 10px;
-}
-
-tr td{
-    font-size: 10px;
-}
-
-li{
-    font-size: 10px;
-}
-
-
-@media (min-width:700px){
 
 
    tr th{
-        color:rgba(168, 43, 226, 0.224);
+        color:#EF816C;
         font-size: 20px;
     }
     
@@ -349,3 +314,4 @@ justify-content: center;
         background-color: #011C26;
     
 }
+
