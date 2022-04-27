@@ -159,61 +159,10 @@ button:hover {
 
 /*--------------------------CSS DE PRODUCTOS-----------------------------------------*/
 
-
-.ContenedorProductos{
-    background-color: rgba(168, 43, 226, 0.224);
-display:flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-
-.NavProductos{
-    display:flex;
-    flex-wrap: wrap;
-}
-
-
-.producto{
-    width: 100px;
-    height: 200px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
-    border-style: double;
-     
-}
-
-.producto__titulo{
-    text-align-last: center;
-}
-
-.producto__img{
-    width: 100px;
-    height: 100px;
-}
-
-
-@media (min-width:700px){
-.ContenedorProductos{
-    background-color: rgba(168, 43, 226, 0.224);
-display:flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-
-.NavProductos{
-    display:flex;
-    flex-wrap: wrap;
-}
-
-
 .producto{
     width: 200px;
     height: 330px;
-    background-color: white;
+    background-color:#C4C7F2;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -231,7 +180,6 @@ flex-wrap: wrap;
 }
 
 
-  }
 
 /*--------------------------- CSS TALLERES------------------*/
 
